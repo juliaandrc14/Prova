@@ -39,7 +39,7 @@ describe('Prova', () => {
   })
 
 
-  it.only('Preencher formulário de contato', () => {
+  it('Preencher formulário de contato', () => {
 
     // Verificar se existe o menu "Contato" e clicar nele
     cy.get('#comp-kevyodnk6label').should('exist').click();
